@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --index: calc(1vw + 1vh);
+    --side-small: 26;
+	--side-big: 36;
+    --gutter: 30px;
+}
+
+@font-face {
+    font-family: kazakh_font;
+    src: url(.../fonts/CourierITT.ttf);
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: kazakh_font;
+    src: url(.../fonts/CourierITT.ttf);
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: arial_bold;
+    src: url(.../fonts/Arial_Bold_Italic.ttf);
+    font-weight: 300;
+}
+
+
+@font-face {
+    font-family: ralweay_c;
+    src: url(.../fonts/raleway-v22-cyrillic-300);
+    font-weight: 300;
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #000;
+    color: #ffffff;
+    font-family: kazakh_font, sans-serif;
+}
+
+.container {
+    position: relative;
+    top: 5em;
+    width: 90%;
+    height: 100%;
+    line-height: 2em;
+    font-size: 1.1em;
+    text-align: start;
+}
+
+.container .nav p {
+    padding: 10px;
+    text-align: inherit;
+}
+
+.container .nav {
+    position: absolute;
+}
+
+.container .nav ul {
+    margin-left: 30px;
+}
+
+.container .nav ul li {
+    text-align: inherit;
+    padding: 20px;
+}
+
+.container .nav p ion-icon {
+    font-size: 1.3em;
+}
+
+.container .nav ul li ion-icon {
+    font-size: 1.3em;
+}
+
+.container button {
+    position: absolute;
+    top: 460px;
+    right: 50%;
+    width: 100px;
+    height: 30px;
+    background: none;
+    border: 1px solid #ffffff;
+    border-radius: 20px;
+    color: #ffffff;
+    font-family: raleway_c;
+    font-size: 1em;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.container button:hover {
+    background: #ffffff;
+    color: #000;
+}
+
