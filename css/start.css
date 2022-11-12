@@ -52,7 +52,7 @@ body {
     top: 5em;
     width: 90%;
     height: 100%;
-    line-height: 2em;
+    line-height: 1.5em;
     font-size: 1.1em;
     text-align: start;
 }
@@ -85,7 +85,7 @@ body {
 
 .container button {
     position: absolute;
-    top: 460px;
+    top: 30em;
     right: 50%;
     width: 100px;
     height: 30px;
