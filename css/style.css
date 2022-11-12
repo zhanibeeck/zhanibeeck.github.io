@@ -8,7 +8,7 @@
 	--gutter: 30px;
 	--side-small: 26;
 	--side-big: 36;
-	--depth: 9000px;
+	--depth: 15300px;
 	--transition: .75s cubic-bezier(.075, .5, 0, 1)
 }
 
@@ -32,17 +32,17 @@ body::-webkit-scrollbar {
 
 @font-face {
 	font-family: kazakh_f;
-	src: url(../fonts/Helv_Kaz_Bold_Italic.ttf);
+	src: url(../fonts/vAsylm07.ttf);
 	font-weight: 100;
 }
 
 body {
 	background-color: #000;
 	color: #fff;
-	font-size: calc(var(--index) * .8);
-	font-family: raleway_c, sans-serif;
+	font-size: calc(var(--index) * .9);
 	line-height: 1.75;
 	height: var(--depth);
+	font-family: raleway_c, sans-serif;
 	font-weight: 300;
 }
 .container {
@@ -68,6 +68,7 @@ body {
 }
 h2 {
 	font-weight: 100;
+	font-family: raleway_c, sans-serif;
 	text-transform: uppercase;
 	width: min-content;
 	line-height: 1;
@@ -135,6 +136,7 @@ video.frame-media_left {
     bottom: 2.5vh;
     right: 10px;
     width: 100px;
+	font-family: raleway_c, sans-serif;
     font-size: 10px;
 }
 
