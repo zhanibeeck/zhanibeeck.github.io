@@ -23,20 +23,6 @@
     font-weight: 300;
 }
 
-@font-face {
-    font-family: arial_bold;
-    src: url(.../fonts/Arial_Bold_Italic.ttf);
-    font-weight: 300;
-}
-
-
-@font-face {
-    font-family: ralweay_c;
-    src: url(.../fonts/raleway-v22-cyrillic-300);
-    font-weight: 300;
-}
-
-
 body {
     display: flex;
     justify-content: center;
